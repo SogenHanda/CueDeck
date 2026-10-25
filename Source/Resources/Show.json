@@ -1,0 +1,720 @@
+{
+  "cues" : [
+    {
+      "actions" : {
+        "出演者全体" : "自分の席にバッグなどを置く\n室内かロワー広場待機",
+        "照明" : "Q1)LED蛍光灯100%"
+      },
+      "delay" : 60,
+      "id" : "E2C5139D-3715-45B2-B0BB-CB2EA2B5D34F",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 2行目",
+      "number" : "01",
+      "operatorCue" : "照明 : Q1",
+      "planned" : -3600,
+      "title" : "開場前",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "出演者全体" : "入場",
+        "音響" : "(Q1)注意事項音声"
+      },
+      "delay" : 60,
+      "id" : "451BBA43-55D6-44D9-9408-35AB78C907F4",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 3行目",
+      "number" : "02",
+      "operatorCue" : "音響 : Q1",
+      "planned" : -1800,
+      "title" : "客入り",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "照明" : "5分前or0分前に前説アナ終わりで\n(Q2)誘導灯out",
+        "音響" : "アナウンス？？"
+      },
+      "delay" : 60,
+      "id" : "6CCA7FBA-EE48-459E-947D-8BE47AE3FBE5",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 4行目",
+      "number" : "03",
+      "operatorCue" : "照明 : Q2",
+      "planned" : -300,
+      "title" : "客入り",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "出演者全体" : "指示に従って徐々に座れなくなる",
+        "音響" : "(Q2)指示音声"
+      },
+      "delay" : 60,
+      "id" : "D4AF2DB7-6380-4978-87F0-1DD4FDFF2778",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 5行目",
+      "number" : "04",
+      "operatorCue" : "音響 : Q2",
+      "planned" : 0,
+      "title" : "指示音声",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "照明" : "排気音in\n(Q3)LED蛍光灯50%",
+        "音響" : "指示音声 + noise",
+        "音響詳細" : "mainSP : 指示音声\nanotherSP?? : sinwave or 排気音"
+      },
+      "delay" : 60,
+      "id" : "82B59577-91D5-45DD-9B4D-366F06AAB949",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 6行目\n開始時刻: ???（時刻未定）",
+      "number" : "05",
+      "operatorCue" : "照明 : Q3",
+      "title" : "指示音声 noise in",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "照明" : "ノイズ終わりで\n(Q4)LED蛍光灯100%",
+        "音響" : "指示音声 only"
+      },
+      "delay" : 60,
+      "id" : "A8D590C4-527D-45D9-8047-09C785E88775",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 7行目\n開始時刻: ???（時刻未定）",
+      "number" : "06",
+      "operatorCue" : "照明 : Q4",
+      "title" : "指示音声 noise out",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "出演者全体" : "各々",
+        "竹本" : "ゆっくり探索エリアへ移動\n脱衣\n椅子と向かい合う",
+        "花形" : "探索エリアを見ている",
+        "萌" : "探索エリアを見ている",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "C5EBB75D-505B-4096-B78A-EB9CFAF91E12",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 8行目\nend time : 0:23:00\ntime(min): 5",
+      "number" : "07",
+      "planned" : 1080,
+      "title" : "指示音声 FIN\n竹本さん移動, 脱衣・対面\n\n5min程度掛かる想定",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "出演者全体" : "各々",
+        "竹本" : "椅子と鏡合わせ",
+        "萌" : "探索エリアを見ている",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "79952EEE-42F4-4DED-826A-BAECB0234C5D",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 9行目\nend time : 0:24:00\ntime(min): 1",
+      "number" : "08",
+      "planned" : 1380,
+      "title" : "生身椅子 : 鏡合わせ (7min)",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "出演者全体" : "各々",
+        "富士夫" : "裏へ移動して、mocap準備",
+        "技術" : "富士夫さん裏でmocap",
+        "照明" : "(Q5)探索エリアSPOT\n5min",
+        "照明詳細" : "SPOTライトゆっくりフェードイン/蛍光灯は気づかれずに暗くなっていく(ゼロにはしないと思う)",
+        "竹本" : "椅子と鏡合わせ",
+        "萌" : "探索エリアを見ている",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "C1E3819D-CFBF-4E87-94FD-C56A2A355806",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 10行目\nend time : 0:30:00\ntime(min): 6",
+      "number" : "09",
+      "operatorCue" : "照明 : Q5",
+      "planned" : 1440,
+      "title" : "鏡合わせ後1minで照明変更\n\nLED蛍光灯 fade\n探索エリアSPOT fade in\n\n富士夫さん裏移動",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "出演者全体" : "各々",
+        "富士夫" : "mocap準備",
+        "竹本" : "萌さんに座られる\n生身の椅子のまま",
+        "萌" : "椅子を動かして竹本さんに座る",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "17780F6A-9780-4619-9D36-1CC15A71458C",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 11行目\nend time : 0:35:00\ntime(min): 5",
+      "number" : "10",
+      "planned" : 1800,
+      "title" : "生身椅子 : 被座→放置(7min)\n\n萌さんが竹本さんに座る\n(7min後にmocap)",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "出演者全体" : "各々",
+        "富士夫" : "移動",
+        "技術" : "Q1 富士夫さん移動\n\n花形トリガー？？",
+        "竹本" : "生身の椅子のまま",
+        "萌" : "見ている",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "3DFCB7F0-C7F5-4D5A-A630-720C17A6AB1E",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 12行目\nend time : 0:37:00\ntime(min): 2",
+      "number" : "11",
+      "operatorCue" : "テクニカル : Q1",
+      "planned" : 2100,
+      "title" : "富士夫さんmocap舞台へ移動",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "(Q1)\n\nmocap start\nHMD only\n\nlock/limit > 0.5 (7min)",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "black",
+        "mocap 下PJ" : "black",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap鏡合わせ",
+        "照明" : "ふじおスイッチ\n(Q6)mocap SPOT ON\n(Q7)探索は少しDN→周りもすごい暗く",
+        "竹本" : "生身の椅子のまま",
+        "萌" : "見ている",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "AF9C7B9E-8A05-4570-8B61-E6B441FC4A18",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 13行目\nend time : 0:38:00\ntime(min): 1",
+      "number" : "12",
+      "operatorCue" : "照明 : Q6",
+      "planned" : 2220,
+      "title" : "mocap : 鏡合わせスタート(7min)\n\n富士夫さん四つん這い後1minでPJ/PA fade in\n\n探索エリアSPOT fade out\nmocap SPOT",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "富士夫" : "mocap鏡合わせ",
+        "竹本" : "生身の椅子のまま",
+        "萌" : "見ている",
+        "音響" : "(Q3)バーチャルサウンド＋生音 fade in (5 sec)",
+        "音響詳細" : "mocap PC -> PA　(XLR??)"
+      },
+      "delay" : 60,
+      "id" : "6B56FB48-653B-46B0-86CD-DC9AD88FEE0A",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 14行目\nend time : 0:44:00\ntime(min): 6",
+      "number" : "13",
+      "operatorCue" : "Mocap : Q1",
+      "planned" : 2280,
+      "title" : "PJ fade in\n\nPA fade in",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "富士夫" : "mocap鏡合わせ",
+        "竹本" : "生身の椅子のまま",
+        "萌" : "見ている",
+        "音響" : "バーチャルサウンド＋生音"
+      },
+      "delay" : 60,
+      "id" : "E93DD1F7-E99E-4E2A-BA7B-7C83F4308B0A",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 15行目\nend time : 0:45:00\ntime(min): 1",
+      "number" : "14",
+      "planned" : 2640,
+      "title" : "(mocap 椅子が倒れる)",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "(Q2)\n\n客観のみ",
+        "mocap HMD" : "stage",
+        "mocap 上PJ" : "black",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "竹本" : "生身の椅子のまま",
+        "萌" : "見ている",
+        "音響" : "バーチャルサウンド＋生音"
+      },
+      "delay" : 60,
+      "id" : "3C999D83-C2AF-4539-8ADB-C3DEE5AB31E5",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 16行目\nend time : 0:51:00\ntime(min): 6",
+      "number" : "15",
+      "operatorCue" : "Mocap : Q2",
+      "planned" : 2700,
+      "title" : "mocap : 探索1(客観) (7min)\n\n倒れて+1minでスタート",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "客観のみ",
+        "mocap HMD" : "stage",
+        "mocap 上PJ" : "black",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "照明" : "たおれて7分半田Q\n(Q8)Mocap out(どこかでUP)",
+        "竹本" : "生身の椅子のまま",
+        "萌" : "見ている",
+        "音響" : "バーチャルサウンド＋生音"
+      },
+      "delay" : 60,
+      "id" : "45003211-A636-454C-A48A-8F5E4356CF45",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 17行目\nend time : 0:52:00\ntime(min): 1",
+      "number" : "16",
+      "operatorCue" : "照明 : Q8",
+      "planned" : 3060,
+      "title" : "倒れて+7minで\n\nmocap SPOT fade out",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "(Q3)\n\n主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "竹本" : "生身の椅子のまま",
+        "萌" : "見ている",
+        "音響" : "バーチャルサウンド＋生音"
+      },
+      "delay" : 60,
+      "id" : "84CDCAA7-B291-4397-B338-D60ABA2D4337",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 18行目\nend time : 0:58:00\ntime(min): 6",
+      "number" : "17",
+      "operatorCue" : "Mocap : Q3",
+      "planned" : 3120,
+      "title" : "mocap : 探索2(主観+客観) (7min)\n\nmocap SPOT fadeout 後+1minでスタート",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "竹本" : "生身の椅子のまま",
+        "萌" : "見ている",
+        "音響" : "(Q4) PA fade out"
+      },
+      "delay" : 60,
+      "id" : "35D4BD89-1A88-4367-A661-BB0DC65CB3D1",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 19行目\nend time : 0:59:00\ntime(min): 1",
+      "number" : "18",
+      "operatorCue" : "音響 : Q4",
+      "planned" : 3480,
+      "title" : "PA mocap fadeout\n\n探索2スタート後6minでPA fade out",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "技術" : "花形->はづき cue",
+        "照明" : "(Q9)LED蛍光灯(客をイスにもどす明るさ)",
+        "竹本" : "生身の椅子のまま",
+        "音響" : "(Q5)インターバル音声\n\n花形->はづき",
+        "音響詳細" : "noise加えるかも？"
+      },
+      "delay" : 60,
+      "id" : "CE2E308F-270E-4CD9-9FFC-2F63B7B9D5BC",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 20行目\nend time : 1:07:00\ntime(min): 8",
+      "number" : "19",
+      "operatorCue" : "音響 : Q5\n照明 : Q9",
+      "planned" : 3540,
+      "title" : "インターバル音声(8min?)",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "照明" : "(花形→はづきにQ)\n(Q10)SPOT+周りは真っ暗(お客さんは動ける)3p同じ明るさ。武本スタート時の明るさ",
+        "竹本" : "生身の椅子のまま",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "9A8917FF-F7AA-4E9A-9C4D-9AE4E85F8E18",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 21行目\nend time : 1:07:00",
+      "number" : "20",
+      "operatorCue" : "照明 : Q10",
+      "planned" : 4020,
+      "title" : "客電 fade out\n義肢エリアSPOT fade in",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "竹本" : "生身の椅子のまま",
+        "花形" : "義肢エリア外で見ている",
+        "萌" : "義肢エリアへ移動\n義肢の装着\n椅子になる",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "7A1FD138-476C-4818-A7D6-E0066824105A",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 22行目\nend time : 1:14:00",
+      "number" : "21",
+      "planned" : 4020,
+      "title" : "義肢椅子：装着(7min)",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "竹本" : "生身の椅子のまま",
+        "花形" : "義肢椅子に座る",
+        "萌" : "座られる",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "30992642-F5FE-4E9D-B55A-68069803FE62",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 23行目\nend time : 1:21:00",
+      "number" : "22",
+      "planned" : 4440,
+      "title" : "義肢椅子：被座→放置(7min)",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "竹本" : "生身の椅子のまま",
+        "花形" : "移動して、脱衣\nゴーグル装着など",
+        "萌" : "義肢椅子のまま",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "F1873CD2-851E-42E3-AC35-BD8B19FF1B70",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 24行目\nend time : 1:26:00",
+      "number" : "23",
+      "planned" : 4860,
+      "title" : "花形さん脱衣＋移動 5min程度想定",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "AI" : "(Q1)\n\n7minかけてstrengthを上げていく(40>20)",
+        "AI Camarm" : "preset 01",
+        "AI HMD" : "AI",
+        "AI PJ" : "black",
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "照明" : "(Q11)スイッチON\nAIが強くて3p暗め",
+        "竹本" : "生身の椅子のまま",
+        "花形" : "鏡合わせ",
+        "萌" : "義肢椅子のまま",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "D73BCB49-63FF-453D-8EDD-6AC3A46147AA",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 25行目\nend time : 1:27:00",
+      "number" : "24",
+      "operatorCue" : "AI : Q1\n照明 : Q11",
+      "planned" : 5160,
+      "title" : "AI椅子 : 鏡合わせ（7min）\n\nAI SPOT fade in",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "AI" : "(Q2)PJ fade in 10sec",
+        "AI Camarm" : "5minでpreset変更",
+        "AI HMD" : "AI",
+        "AI PJ" : "AI",
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "富士夫" : "mocap 探索",
+        "竹本" : "生身の椅子のまま",
+        "花形" : "鏡合わせ",
+        "萌" : "義肢椅子のまま",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "ADB344F4-3001-4F90-995E-3A4A3F8A575B",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 26行目\nend time : 1:33:00",
+      "number" : "25",
+      "operatorCue" : "AI : Q2",
+      "planned" : 5220,
+      "title" : "AI PJ fade in (10sec)",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "AI" : "(Q3)18<>27あたりで変動",
+        "AI Camarm" : "5minでpreset変更",
+        "AI HMD" : "AI",
+        "AI PJ" : "AI",
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "竹本" : "生身の椅子のまま",
+        "花形" : "探索",
+        "萌" : "義肢椅子のまま",
+        "音響" : "(Q6)音源10min + 無音7min",
+        "音響詳細" : "音楽: Rench Keeくんの去年のサウンド(下記URLの3)\n\nhttps://drive.google.com/drive/folders/1lDXmYKEizi_52LueE00km4yn4oM6zow-?usp=sharing"
+      },
+      "delay" : 60,
+      "id" : "6CEDF4CE-64C0-4581-85CC-8F1A238408C0",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 27行目\nend time : 1:50:00",
+      "number" : "26",
+      "operatorCue" : "音響 : Q6\nAI : Q3",
+      "planned" : 5580,
+      "title" : "AI : 探索 (17min)",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "AI Camarm" : "5minでpreset変更",
+        "AI HMD" : "AI",
+        "AI PJ" : "black\n\nduration 30sec",
+        "mocap" : "主観＋客観",
+        "mocap HMD" : "POV",
+        "mocap 上PJ" : "POV",
+        "mocap 下PJ" : "stage",
+        "出演者全体" : "各々",
+        "富士夫" : "mocap 探索",
+        "照明" : "(Q12)半田Q\nAI+探索+義肢/明るめ\nmocap/out\n30sec",
+        "竹本" : "生身の椅子のまま",
+        "花形" : "探索",
+        "萌" : "義肢椅子のまま",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "AF888E9F-85A0-4354-8402-B20082EE0CD7",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 28行目\nend time : 1:55:00",
+      "number" : "27",
+      "operatorCue" : "照明 : Q12",
+      "planned" : 6600,
+      "title" : "ラスト(5min)",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "AI" : "(Q4) 30secかけてfede out",
+        "AI Camarm" : "stop",
+        "AI HMD" : "black",
+        "AI PJ" : "black",
+        "mocap" : "(Q4) 30secかけてfede out",
+        "mocap HMD" : "black",
+        "mocap 上PJ" : "black",
+        "mocap 下PJ" : "black",
+        "照明" : "3分で半田Q\n(Q13)暗転\n30sec",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "818AFAE9-A202-4524-92DB-E85DA55829FF",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 29行目\nend time : 1:55:30",
+      "number" : "28",
+      "operatorCue" : "照明 : Q13\nAI : Q4\nMocap : Q4",
+      "planned" : 6900,
+      "title" : "暗転",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "照明" : "(Q14)LED蛍光灯\n1minでGo",
+        "音響" : "無音"
+      },
+      "delay" : 60,
+      "id" : "A5108069-B112-4106-82AA-CAF71C1F740B",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 30行目",
+      "number" : "29",
+      "operatorCue" : "照明 : Q14",
+      "planned" : 6990,
+      "title" : "暗転後1minで明転",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "照明" : "(Q15)誘導灯",
+        "音響" : "(Q7)終了アナウンス"
+      },
+      "delay" : 60,
+      "id" : "7B9D83F4-04BD-4540-97F2-9A9CF04F9B47",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 31行目",
+      "number" : "30",
+      "operatorCue" : "照明 : Q15\n音響 : Q7",
+      "title" : "終了アナウンス",
+      "trigger" : "manual"
+    },
+    {
+      "actions" : {
+        "音響" : "ロビーで音声日記が流れている？"
+      },
+      "delay" : 60,
+      "id" : "ED68F129-31E4-4F28-881B-8FA35566A68A",
+      "messages" : [
+
+      ],
+      "notes" : "取込元: cue sheet / 2026-10-25 最新版 / 32行目",
+      "number" : "31",
+      "title" : "ロビーで音声日記が流れている？",
+      "trigger" : "manual"
+    }
+  ],
+  "endpoints" : [
+    {
+      "host" : "192.168.220.101",
+      "id" : "52AAE57E-3B2B-493A-BD82-B44D7C6C78E9",
+      "name" : "AI",
+      "port" : 13001
+    },
+    {
+      "host" : "192.168.220.102",
+      "id" : "F0A6939B-4ED7-448C-91CC-3A7DC12C31E6",
+      "name" : "Mocap",
+      "port" : 13001
+    },
+    {
+      "host" : "192.168.220.103",
+      "id" : "6DAEB840-EEBB-4399-AF68-1348F3166C79",
+      "name" : "Light",
+      "port" : 13001
+    },
+    {
+      "host" : "192.168.220.104",
+      "id" : "95CCCD32-3515-4DE7-B67A-B7704BE032C3",
+      "name" : "Sound",
+      "port" : 13001
+    },
+    {
+      "host" : "127.0.0.1",
+      "id" : "5D24B505-9414-48A8-90BF-129E9267102F",
+      "name" : "Local test",
+      "port" : 13001
+    }
+  ],
+  "schemaVersion" : 1,
+  "sourceURL" : "https://docs.google.com/spreadsheets/d/1Bk0GYM1XBjNkqKEj1L7XB-GTgLlTTwNS6o5DWI-uUM8/edit?gid=1587164916",
+  "subtitle" : "本番進行 / CUE SHEET",
+  "title" : "秋の隕石 エルゴノミクス胚"
+}

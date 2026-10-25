@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "title": "CueDeck / 手動と自動のデモ",
+  "subtitle": "混在トリガーの動作確認",
+  "sourceURL": "",
+  "cues": [
+    {
+      "id": "594446a7-793c-4911-b701-e3cddc94bd09",
+      "number": "D1",
+      "title": "手動GOで開始",
+      "planned": null,
+      "trigger": "manual",
+      "delay": 0,
+      "anchorID": null,
+      "actions": {
+        "技術": "5秒後の自動CUEを待機",
+        "音響": "準備"
+      },
+      "notes": "",
+      "messages": []
+    },
+    {
+      "id": "c0b2a07c-27de-471f-88ca-7d9d4783f4ac",
+      "number": "D2",
+      "title": "任意のタイミングで手動GO",
+      "planned": null,
+      "trigger": "manual",
+      "delay": 0,
+      "anchorID": null,
+      "actions": {
+        "竹本": "任意の動き"
+      },
+      "notes": "",
+      "messages": []
+    },
+    {
+      "id": "086d9807-228e-494f-9df2-f503f26d809c",
+      "number": "D3",
+      "title": "D1から5秒後に自動実行",
+      "planned": null,
+      "trigger": "afterCue",
+      "delay": 5,
+      "anchorID": "594446a7-793c-4911-b701-e3cddc94bd09",
+      "actions": {
+        "照明": "FADE IN（デモ表示）",
+        "技術": "相対AUTO実行済み"
+      },
+      "notes": "",
+      "messages": [
+        {
+          "id": "86b255b2-eebc-448b-b70e-c7fcea71b6d5",
+          "endpointID": "04018737-ca9e-45d3-af5b-fbf2062bdca0",
+          "address": "/cuedeck/test",
+          "arguments": [
+            {
+              "id": "dafe8ee4-909b-4203-b0fa-ecbae591e63e",
+              "type": "s",
+              "value": "relative"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "53f69426-f294-4c25-9e57-735979db4d34",
+      "number": "D4",
+      "title": "上演時計12秒で自動実行",
+      "planned": 12,
+      "trigger": "showTime",
+      "delay": 0,
+      "anchorID": null,
+      "actions": {
+        "音響": "終了（デモ表示）",
+        "AI": "終了（デモ表示）"
+      },
+      "notes": "",
+      "messages": []
+    }
+  ],
+  "endpoints": [
+    {
+      "id": "04018737-ca9e-45d3-af5b-fbf2062bdca0",
+      "name": "Local test only",
+      "host": "127.0.0.1",
+      "port": 13001
+    }
+  ]
+}

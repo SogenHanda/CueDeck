@@ -1,0 +1,89 @@
+PASS: latest source imports all 31 events
+PASS: initial cues manual, no speculative OSC
+PASS: latest final timed event is 1:56:30
+PASS: time parsing
+PASS: GO repeat debounce
+PASS: HOLD freezes clock
+PASS: relative timer excludes HOLD
+PASS: relative AUTO runs independently of waiting manual
+PASS: absolute AUTO
+PASS: AUTO never fires twice
+PASS: manual queue catches pending cue
+PASS: state carry-forward in execution order
+PASS: rewind clears later records and disarms
+PASS: suspend gap HOLD without catch-up
+PASS: overdue AUTO HOLD without burst
+PASS: forward/cyclic anchors rejected
+PASS: OSC wire layout, padding, big-endian int32/float32/string
+PASS: int32 overflow rejected
+PASS: invalid OSC address rejected
+PASS: local UDP receiver binds
+PASS: GO submits actual OSC UDP datagram on localhost
+PASS: rehearsal suppresses output but records event
+PASS: UDP failure HOLD, disarm, no automatic replay
+PASS: disk restore retains progress, HOLD and OSC OFF
+PASS: new run reset
+PASS: reset archives prior run
+PASS: unsaved network changes block START
+PASS: failed backup prevents destructive reset
+PASS: repeated undo preserves earlier pending manual cue
+PASS: undo is HOLD, output OFF and preserves clock
+PASS: undo rebuilds department state
+PASS: reverted automatic cues wait for manual GO
+PASS: GO prioritizes reverted cue and then replay queue
+PASS: replay queue then returns to earlier pending manual cue
+PASS: replay wait survives disk restore
+PASS: CSV import recognizes Japanese headers, BOM and quoted comma
+PASS: CSV embedded newline and escaped quote
+PASS: blank-name technical row imported, manual with no OSC
+PASS: TSV import and source-sheet style headers
+PASS: CSV invalid planned time rejected before import
+PASS: CSV broken quoting rejected
+PASS: latest source sheet CSV round-trip preserves all 31 events and operator calls
+PASS: import backs up complete prior project and resets progress safely
+PASS: unknown times remain manual, unscheduled and preserved
+PASS: latest operator and technical columns imported
+PASS: updated sheet preserves signed preshow times
+PASS: signed clock parsing, positive-only relative duration
+PASS: preshow clock and GO run with negative show time
+PASS: new run returns to preshow origin
+PASS: preview carries light state and skips repeated unchanged rows
+PASS: preview highlights next-GO sound change
+PASS: department call without explicit state remains visible
+PASS: legacy project and progress migrate into project library
+PASS: create blank project in same application
+PASS: switch restores independent progress and disarms output
+PASS: each project keeps separate clock and cue history
+PASS: project switching blocked during operation
+PASS: last active project restores at relaunch in HOLD
+PASS: invalid target progress does not replace active project
+PASS: URL refresh selects fragment gid and CSV export
+PASS: published Google Sheet URL supported
+PASS: non-Google URL rejected
+PASS: invalid gid rejected
+PASS: URL credentials rejected
+PASS: private-sheet HTTP error is actionable
+PASS: HTML login response rejected
+PASS: unchanged sheet detected without resetting runtime
+PASS: unique operator cue matches renamed row and preserves OSC and relative anchors
+PASS: sheet instructions update while project identity remains
+PASS: explicit option imports all-manual without OSC
+PASS: deleted relative anchor downgraded to manual with warning
+PASS: ambiguous duplicate rows never receive old OSC settings
+PASS: conflicting operator calls do not match by title alone
+PASS: START blocked while refresh review is open
+PASS: no-change refresh saves timestamp and keeps progress
+PASS: changed refresh resets runtime and stores applied timestamp
+PASS: stale refresh cannot overwrite newly edited project
+PASS: register URL for project
+PASS: registered URL persists across relaunch
+VERIFIED 79 critical checks
+
+UI / installed app verification
+PASS: URL registration and persistence
+PASS: header update directly fetches latest Google Sheet
+PASS: live CSV fetch returns 31 cues / no changes
+PASS: no-change confirmation preserves 20 executed cues and elapsed time
+PASS: app relaunch preserves source check timestamp
+PASS: dark update view visual inspection
+PASS: canonical app codesign and distribution ZIP integrity
